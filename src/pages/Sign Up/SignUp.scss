@@ -1,0 +1,25 @@
+.signup_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // margin: 8.5rem;
+    padding: 0rem 3rem;
+}
+.sign_up_card{
+    padding: 0rem 2rem;
+    margin: 7rem;
+}
+.sign_up_card h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.signup_container form div input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--header_background);
+    font-size: 1rem;
+    width: 15rem;
+    padding: 1rem 0rem;
+    width: 25rem;
+}

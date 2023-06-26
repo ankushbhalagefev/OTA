@@ -1,0 +1,14 @@
+.footer_container{
+    margin-top: 80vh;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: flex-end;
+    // align-items: end;    
+    // background-color: var(--white);
+    padding: 1rem;
+    // position: fixed;
+}
+.footer_container h5{
+    color: var(--header_background);
+    // color: red;
+}

@@ -1,0 +1,71 @@
+.header_container {
+    background-color: var(--header_background);
+    display: flex;
+    justify-content: space-between;
+    // margin-left: calc(100vw);
+    // margin-left: 22.5rem;
+    height: 10vh;
+    // padding-left: 25rem;
+}
+
+.logo {
+    // padding: 1rem;
+    width: 20vw;
+    // border-right: 2px solid #FFFFFF;
+    // flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header_container h3{
+    flex: 7;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.header_container h3 span{
+    
+    color: orangered;
+}
+
+.sign_in {
+    display: flex;
+    padding: .5rem;
+   
+}
+
+.sign_in h3 {
+    color: var(--white);
+    padding: 1rem 2rem;
+    margin: .5rem 1rem;
+    border:.3rem solid var(--white);
+    border-radius: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logout{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(80, 4, 4);
+    border-radius: .7rem;
+    cursor: pointer;
+    color: var(--white);
+    margin-right: 2rem;
+    
+}
+.logout i{
+    font-weight: 600;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logout h3 {   
+    margin: 1rem;
+    font-weight: 500;
+}

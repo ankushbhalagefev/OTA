@@ -1,0 +1,70 @@
+.add_soft_container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0rem 0rem 0rem;
+    z-index: 2;
+}
+.card h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #653471;
+}
+.soft_form form div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+.soft_form form div label,input{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#description{
+    height: 6rem;
+}
+.soft_form div:last-child{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.soft_form form div:last-child button:first-child{
+    background-color: rgb(3, 3, 1);
+}
+.soft_form form div:last-child button:last-child{
+    background-color: rgb(80, 4, 4);
+}
+.soft_form form div input{
+    padding: .7rem;
+    border-radius: 1rem;
+}
+.soft_form form div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+.file_input form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px dashed #1475cf;
+    height: 50px;
+    width: 300px;
+    cursor: pointer;
+}
