@@ -18,8 +18,8 @@ const Routers = () => {
   return (
     // <div>Routes</div>
     <Router>
-      <Header selectedOption={selectedOption}/>
-      <Sidebar onOptionSelect={handleOptionSelect}/>
+      <Header selectedOption={selectedOption} />
+      <Sidebar onOptionSelect={handleOptionSelect} />
       {/* <EditProfile/> */}
       {/* <SignUp/> */}
       {/* <SignIn/> */}
@@ -28,7 +28,7 @@ const Routers = () => {
         <Route path='/softwaremodule' element={<SoftModule />} />
         <Route path='/deployment' element={<Deployment />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </Router>
   )
 }
